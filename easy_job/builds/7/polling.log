@@ -1,0 +1,9 @@
+Started on Jul 26, 2017 12:46:30 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision b587c61fa1703f2e6bfbcef2c4e0a860569152ec (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/ArkadioG/isa-jenkins # timeout=10
+Found 1 remote heads on https://github.com/ArkadioG/isa-jenkins
+[poll] Latest remote head revision on refs/heads/master is: f24c955780dc9b08b7868701fa2707ab879d707b
+Done. Took 1.6 sec
+Changes found

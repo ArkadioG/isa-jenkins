@@ -1,0 +1,41 @@
+Started by an SCM change
+Building in workspace /var/lib/jenkins/workspace/easy_job
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ArkadioG/isa-jenkins # timeout=10
+Fetching upstream changes from https://github.com/ArkadioG/isa-jenkins
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ArkadioG/isa-jenkins +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ca14950176e7a05832add9b4b4048f97fadb790f (refs/remotes/origin/master)
+Commit message: "Update README.md"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ca14950176e7a05832add9b4b4048f97fadb790f
+ > git rev-list f24c955780dc9b08b7868701fa2707ab879d707b # timeout=10
+[easy_job] $ /bin/sh -xe /tmp/jenkins189246981851978932.sh
++ ls
+install_jenkins.sh
+myApp
+prezentacja.pdf
+README.md
++ cd myApp
++ ls
+datemod.js
+first.html
+myapp.js
+node_modules
+package.json
++ echo Working dir:
+Working dir:
++ pwd
+/var/lib/jenkins/workspace/easy_job/myApp
++ npm install-test
+npm WARN myapp@1.0.0 No repository field.
+
+> myapp@1.0.0 test /var/lib/jenkins/workspace/easy_job/myApp
+> echo "OK"
+
+OK
+Finished: SUCCESS

@@ -1,0 +1,11 @@
+commit e6d689728fe0142b216ca74ee831715703a4a0d5
+tree f2cdfb9decb8dc82ce7efa11af97577a3cec02b7
+parent f24c955780dc9b08b7868701fa2707ab879d707b
+author ArkadioG <frank.gdansk@gmail.com> 2017-07-26 15:52:08 +0200
+committer ArkadioG <frank.gdansk@gmail.com> 2017-07-26 15:52:08 +0200
+
+    Dodano project jenkinsowy przykladowy
+
+
+
+:000000 160000 0000000000000000000000000000000000000000 ca14950176e7a05832add9b4b4048f97fadb790f A	easy_job
